@@ -1,7 +1,7 @@
 # comp9311-database-systems
 PostgreSQL Projects for Database Systems (UNSW Semester 1 2015)
 
-PROJECT 1:
+*** PROJECT 1:
 
 Q1 (3 marks)
 Define an SQL view Q1(unswid, name) that gives the student id and name of any student who has studied more than 65 courses at UNSW. The name should be taken from the People.name field for the student, and the student id should be taken from People.unswid.
@@ -33,7 +33,7 @@ create or replace function Q6(text)
 returns table (course text, year integer, term text, convenor text)
 The course field in the result tuples should be the UNSW course code (i.e. that same thing that was used as the parameter). If the parameter does not correspond to a known UNSW course, then simply return an empty result set.
 
-PROJECT 2:
+*** PROJECT 2:
 
 Q1 (7 marks)
 Define an SQL function (SQL, not PLpgSQL) called Q1(integer) that takes as parameter either
